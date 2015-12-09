@@ -177,10 +177,30 @@
   <br>
   Para a implementação de *templates* de funções, usamos a seguinte estrutura:
 
-    template <typename arg>
+    template <typename nomeTipo> nomeTipo soma(nomeTipo A, nomeTipo B){
+        return (A+B);
+    }
 
+  No exemplo acima, criamos uma função genérica, onde *nomeTipo*, funciona como o tipo de dado genérico que será substituído pelo compilador no momento da chamada da função, com o tipo de dado desejado.<br>
+  Para especificar qual é o tipo de dado utilizado na chamada da função, faremos o seguinte:
+
+    soma<int>(1,2); //3
+    soma<float>(4.5,3.2); //7.7
+
+  Agora, fica mais fácil imaginar como podemos declarar apenas uma função e utilizá-la para qualquer tipo de dado.
 
 ### Templates de Classes
+
+  A construção de *templates* para classes é bem parecida, devemos utilizar a seguinte estrutura:
+
+    template <class T>
+    class Fila{
+        private:
+            int tam;
+            
+
+
+### Exemplo
 
 
 
@@ -188,3 +208,4 @@
 
 [Polimorfismo.pdf](https://www.dimap.ufrn.br/~adilson/DIm327/Polimorfismo.pdf) - Por Adilson Lopes. Acesso em 6 de Dezembro de 2015.<br>
 [Templates.pdf](http://www.dei.isep.ipp.pt/~hleitao/EI/Templates.pdf) - Por Helena Leitão. Acesso em 9 de Dezembro de 2015.<br>
+[Templates](http://homepages.dcc.ufmg.br/~rodolfo/aedsi-2-10/Templates/templates.html) - Por Rodolfo S. F. Resende. Acesso em 9 de Dezembro de 2015.<br>

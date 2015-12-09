@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a3d56b9-b750-4964-83a1-7843aeafae50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/C++/Polimorfismo e Templates em C++.md" afterPath="$PROJECT_DIR$/C++/Polimorfismo e Templates em C++.md" />
     </list>
     <ignored path="artigos.iws" />
@@ -28,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/C++/Polimorfismo e Templates em C++.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.72461754">
-                <caret line="179" column="27" selection-start-line="179" selection-start-column="27" selection-end-line="179" selection-end-column="27" />
+              <first_editor vertical-scroll-proportion="0.87482613">
+                <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -245,8 +244,8 @@
     <entry file="file://$PROJECT_DIR$/C++/Polimorfismo e Templates em C++.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.72461754">
-            <caret line="179" column="27" selection-start-line="179" selection-start-column="27" selection-end-line="179" selection-end-column="27" />
+          <first_editor vertical-scroll-proportion="0.87482613">
+            <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
