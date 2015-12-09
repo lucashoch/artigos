@@ -155,12 +155,36 @@
         return 0;
     }
 
-E dessa forma podemos pensar em classes como Gerente, Programador, Entregador, etc. Cada uma com seu método *calculaSalario()* particular.
+   E dessa forma podemos pensar em classes como Gerente, Programador, Entregador, etc. Cada uma com seu método *calculaSalario()* particular.
 
 ## Templates
+
+### Definição
+
+  *Templates* são estruturas de programação genérica, que permitem a criação/utilização de classes e funções para diversos tipos de dados (int, string, char, float, etc.), porém definidas somente uma vez. Ou seja, ao usarmos *templates*, criamos nossas classes e/ou funções somente uma única vez e podemos usá-las para qualquer tipo de dado.<br>
+
+### Conceito
+
+  A utilização de *templates* em linguagens de programação, de maneira geral, é direcionada para a codificação genérica. Isto quer dizer que podemos reduzir a quantidade de linhas de código e, consequentemente diminuir erros, aumentar a qualidade e legibilidade.<br>
+  <br>
+  Desta forma, utilizamos essa técnica de programação para construir estruturas de dados não definidas, por padrão, *Pilhas, Filas, Listas, etc.* e que consigam operar com qualquer tipo de dado definido na linguagem em questão.
+
+### Templates de Funções
+
+  A construção de *templates* de funções é semelhante à criação de funções padrões que já estamos acostumados, a diferença é que passamos um parâmetro global, que representará o tipo de dado utilizado na chamada da função.<br>
+  <br>
+  Como as funções operarão com diversos tipos de dados, devemos informar ao compilador qual será utilizado na chamada da função, já que isto não pode ser feito em sua construção, como estamos acostumados.<br>
+  <br>
+  Para a implementação de *templates* de funções, usamos a seguinte estrutura:
+
+    template <typename arg>
+
+
+### Templates de Classes
 
 
 
 ## Referências Bibliográficas
 
-[Polimorfismo.pdf](https://www.dimap.ufrn.br/~adilson/DIm327/Polimorfismo.pdf) - Por Adilson Lopes. Acesso em 6 de Dezembro de 2015.
+[Polimorfismo.pdf](https://www.dimap.ufrn.br/~adilson/DIm327/Polimorfismo.pdf) - Por Adilson Lopes. Acesso em 6 de Dezembro de 2015.<br>
+[Templates.pdf](http://www.dei.isep.ipp.pt/~hleitao/EI/Templates.pdf) - Por Helena Leitão. Acesso em 9 de Dezembro de 2015.<br>
