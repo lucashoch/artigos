@@ -57,7 +57,7 @@
 
   Repare que o construtor de *ClasseBase* também é virtual, isto acontece pois, por via de regra, quando temos um método virtual em uma classe, seu construtor também deve ser.
 
-### Métodos Virtais Puros
+### Métodos Virtuais Puros
 
   Métodos Virtuais Puros carregam os mesmos conceitos dos métodos virtuais vistos acima, entretanto possui suas peculiaridades.<br>
   Quando falamos sobre métodos virtuais puros, estamos falando sobre *classes abstratas*, ou seja, classes que não podem ter seus objetos instanciados, não possuem construtor e seus métodos são definidos pelas suas *classes derivadas*.<br>
